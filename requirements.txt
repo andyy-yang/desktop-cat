@@ -1,0 +1,20 @@
+# Runtime (the overlay app itself)
+pyobjc-core>=11
+pyobjc-framework-Cocoa>=11
+pyobjc-framework-Quartz>=11
+numpy>=2
+Pillow>=10
+
+# Content pipeline (turning pet videos into clip packages)
+# torch pinned: 2.9+ drops MPS (Apple GPU) support on macOS 13
+torch==2.8.0
+torchvision==0.23.0
+transformers>=5
+timm>=1
+kornia>=0.7
+einops>=0.8
+opencv-python>=4.10
+
+# Tests / packaging
+pytest>=8
+py2app>=0.28

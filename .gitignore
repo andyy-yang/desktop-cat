@@ -1,0 +1,10 @@
+clips*/
+work/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+source/
+assets/
